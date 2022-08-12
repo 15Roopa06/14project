@@ -97,6 +97,8 @@ function draw() {
 }
     
   drawSprites();
+  textSize(20);
+  text("Score:"+score,270,30);
 }
 
 
